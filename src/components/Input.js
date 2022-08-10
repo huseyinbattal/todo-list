@@ -1,8 +1,11 @@
 import React from 'react'
+import './Input.css'
 
 function Input() {
   return (
-    <div>Input</div>
+      <div className='input-wrapper'>
+        <input placeholder='Create New ToDo' />
+      </div>
   )
 }
 
