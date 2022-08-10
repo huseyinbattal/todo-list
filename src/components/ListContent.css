@@ -1,0 +1,3 @@
+.item-content-wrapper{
+    @apply absolute bg-white shadow-2xl
+}
