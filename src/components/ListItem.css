@@ -3,7 +3,7 @@
 }
 
 .completed{
-    @apply line-through
+    @apply line-through font-bold text-gray-700
 }
 
 .remove-list-item{

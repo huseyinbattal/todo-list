@@ -5,7 +5,7 @@ function ListItem(props) {
   return (
       <div className='list-item hover:bg-gray-200'>
           <div>
-              <input type='checkbox' />
+              <input className='mr-4' type='checkbox' />
               <span>Görev 1</span>
           </div>
           <div className='remove-list-item'>
