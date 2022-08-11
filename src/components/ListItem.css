@@ -11,5 +11,5 @@
 }
 
 .remove-list-item:hover{
-    @apply text-red-600 font-bold
+    @apply text-red-600 font-extrabold
 }
