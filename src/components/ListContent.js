@@ -1,5 +1,6 @@
 import React from 'react'
 import './ListContent.css'
+import ListContentFooter from './ListContentFooter'
 import ListItem from './ListItem'
 
 function ListContent(props) {
@@ -14,7 +15,7 @@ function ListContent(props) {
           })
         }
       </div>
-      <div>Footer</div>
+      <ListContentFooter/>
     </div>
   )
 }
