@@ -1,0 +1,19 @@
+.content-footer{
+    @apply flex h-full items-center justify-between text-xs cursor-pointer
+}
+
+.active{
+    
+}
+
+.menu-item{
+    @apply text-gray-600 text-xs
+}
+
+.menu-item:hover{
+@apply text-blue-600
+}
+
+.left-item{
+    @apply text-green-600 font-bold
+}

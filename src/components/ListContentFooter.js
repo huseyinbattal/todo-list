@@ -1,4 +1,5 @@
 import React from "react";
+import "./ListContentFooter.css"
 
 function ListContentFooter() {
   return (
