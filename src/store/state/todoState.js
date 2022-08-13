@@ -1,3 +1,4 @@
 export const todoState = {
-  todoList: [],
+    todoList: [],
+    todoFilter:"all",
 };
