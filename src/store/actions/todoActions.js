@@ -14,3 +14,10 @@ export const deleteTodo = (id) => {
         payload:id,
     }
 }
+
+export const updateTodo = (id,complete) => {
+    return {
+        type: COMPLETE_TODO,
+        payload:id,
+    }
+}
