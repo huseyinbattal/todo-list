@@ -18,6 +18,6 @@ export const deleteTodo = (id) => {
 export const updateTodo = (id,complete) => {
     return {
         type: COMPLETE_TODO,
-        payload:id,
+        payload:{id,complete}
     }
 }
