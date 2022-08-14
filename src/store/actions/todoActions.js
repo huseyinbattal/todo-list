@@ -1,9 +1,16 @@
 import { ADD_TODO, COMPLETE_TODO, DELETE_TODO, SET_TODO_FILTER } from "../actionTypes/todoActionsTypes";
 
 
-export const addTodo = () => {
+export const addTodo = (todo) => {
     return {
         type: ADD_TODO,
-        payload:
+        payload:todo,
+    }
+}
+
+export const deleteTodo = (id) => {
+    return {
+        type: DELETE_TODO,
+        payload:id,
     }
 }
