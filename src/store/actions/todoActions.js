@@ -21,3 +21,10 @@ export const updateTodo = (id,complete) => {
         payload:{id,complete}
     }
 }
+
+export const setTodoFilter = (filter) => {
+    return {
+        type: SET_TODO_FILTER,
+        payload:filter
+    }
+}
