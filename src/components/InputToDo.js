@@ -3,12 +3,13 @@ import "./Input.css";
 
 function InputToDo() {
   const [text, setText] = useState("");
+  const dispatch=
   return (
     <div className="input-wrapper">
       <input
         onKeyPress={(e) => {
           if (e.key === "Enter" && text.trim() !== "") {
-            
+
             setText("")
           }
         }}
