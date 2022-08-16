@@ -6,6 +6,12 @@ function InputToDo() {
   return (
     <div className="input-wrapper">
       <input
+        onKeyPress={(e) => {
+          if (e.key === "Enter" && text.trim() !== "") {
+            
+            setText("")
+          }
+        }}
         value={text}
         onChange={(e) => {
           setText(e.target.value)
