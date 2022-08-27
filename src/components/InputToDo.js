@@ -19,7 +19,7 @@ function InputToDo() {
         onChange={(e) => {
           setText(e.target.value);
         }}
-        placeholder="Create New ToDo"
+        placeholder="Yeni bir şey ekle..."
         autoFocus
       />
     </div>

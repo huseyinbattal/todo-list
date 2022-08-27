@@ -5,7 +5,7 @@ function Header(props) {
   return (
       <div className='bg-image'>
           <div className='bg-content'>
-              <div className='header-title'>TODO</div>
+              <div className='header-title'>YAPILACAKLAR</div>
               {props.children}
           </div>
     </div>
