@@ -15,7 +15,7 @@ function ListContent(props) {
     return
   }
     
-    setList(todoFilter.filter((x)=>x.complete))
+    setList(todoList.filter((x)=>x.complete))
     
 }, [todoList,todoFilter])
 
